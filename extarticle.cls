@@ -3,21 +3,21 @@
 %% generated from `report.cls' by Wolfgang May, Inst.f.Informatik,
 %%                Universitaet freiburg, Germany.
 %%
-%%		  Some modifications (mainly for size and new font sizes) 
+%%		  Some modifications (mainly for size and new font sizes)
 %%	   	  by James Kilfiger.
-%%		  mapdn@csv.warwick.ac.uk % 
-%% 
+%%		  mapdn@csv.warwick.ac.uk %
+%%
 %% The original source files were:
 %% Copyright 1993 1994 1995 1996 1999
-%% The LaTeX3 Project and any individual authors listed elsewhere 
-%% in this file. 
-%% 
+%% The LaTeX3 Project and any individual authors listed elsewhere
+%% in this file.
+%%
 %% This file may be distributed under the terms of the Latex Project
 %% public licence
-%% 
-%% This system is distributed in the hope that it will be useful, 
-%% but WITHOUT ANY WARRANTY; without even the implied warranty of 
-%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+%%
+%% This system is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{extarticle}
               [1996/10/08 v1.0
@@ -378,10 +378,10 @@
 \renewcommand\p@enumii{\theenumi}
 \renewcommand\p@enumiii{\theenumi(\theenumii)}
 \renewcommand\p@enumiv{\p@enumiii\theenumiii}
-\newcommand\labelitemi{\textbullet}                       
+\newcommand\labelitemi{\textbullet}
 \newcommand\labelitemii{\normalfont\bfseries \textendash}
-\newcommand\labelitemiii{\textasteriskcentered}          
-\newcommand\labelitemiv{\textperiodcentered}             
+\newcommand\labelitemiii{\textasteriskcentered}
+\newcommand\labelitemiv{\textperiodcentered}
 \newenvironment{description}
                {\list{}{\labelwidth\z@ \itemindent-\leftmargin
                         \let\makelabel\descriptionlabel}}
@@ -638,5 +638,5 @@
   \onecolumn
 \fi
 \endinput
-%% 
+%%
 %% End of file `extarticle.cls'.
