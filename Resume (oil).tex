@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 9pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo} % Use the great palatino font provided by the mathpazo package. Add osf for old style figures
+\usepackage{multicol}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{color}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+
+\setlength{\textwidth}{5.2in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-10pt}
+\moveleft.5\hoffset\centerline{\huge\bf Zheren Ma} % Your name at the top
+\moveleft.5\hoffset\centerline{zhrm@utexas.edu, 512-8658134}
+\moveleft.5\hoffset\centerline{Ph.D. Candidate in Mechanical Engineering with expertise in advanced control, computational fluid mechanics and data analytics}
+
+\vspace{-5pt}
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height .5pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+\vspace{-10pt}
+%\moveleft.5\hoffset\centerline{\color{blue}{\url{http://yuhaozhu.com/}}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace*{-5pt}
+%\section{RESEARCH\\ INTERESTS}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace*{-10pt}
+\section{EDUCATION}
+
+\textbf{Mechanical Engineering, The University of Texas at Austin} \hfill\textit{2013-present} \\
+Ph.D. Candidate majoring in Dynamic Systems and Control,  GPA: 4.0/4.0 \\
+\href{https://scholar.google.com/citations?user=EJJUXmMAAAAJ&hl=en}{Publications}: 3 IEEE/ASME journal papers,  9 conference papers \\
+Expected Graduation Date: \textbf{May 2017}\\
+
+\vspace*{-10pt}
+\textbf{Mechanical Engineering, Shanghai Jiao Tong University} \hfill\textit{2009-2013}\\
+Bachelor of Science, GPA: 91.07/100, Rank: 3/121\\
+
+%----------------------------------------------------------------------------------------
+%	SKILL SECTION
+%----------------------------------------------------------------------------------------
+\vspace*{-10pt}
+\section{SKILLS}
+
+\vspace*{-2pt}
+\begin{itemize}[leftmargin=*] \itemsep -4pt
+	\item {\bf Programming languages:} Matlab, C\#, WPF,  C++, Python, VBA
+	\item {\bf Commercial softwares:} Simulink, DeltaV, Microsoft Power BI, AutoCAD, NX Unigraphics
+	\item {\bf Research skills:} advanced control, multi-phase flow modeling, time series analysis and prediction, finite difference/volume analysis, convex optimization, stochastic system analysis
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERN EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{WORK\\ EXPERIENCES}
+
+{\textbf{DeltaV Process Control Intern, Emerson Electric}} \hfill\textit{Summer 2015, Summer 2016}\\
+\vspace*{-10pt}
+\begin{itemize}[leftmargin=*] \itemsep -3pt
+\vspace*{-5pt}
+	\item Developed a control performance evaluation tool to automate Loop Service Express (LSE) for chemical plants.
+	\item  Automated data collection, analysis and generation of control performance report that identifies top 10 bad PID loops, interacting or fighting  loops, valve issues, excessive operator interference etc.
+    \item Got a \$114k  order from a mining company by conducting LSE with the tool and designing a new Model Predictive Control (MPC) strategy .
+\end{itemize}
+
+\medskip
+{\textbf{Automated Guided Vehicle (AGV) Intern, Singapore Technologies}} \hfill\textit{Summer 2012}\\
+\vspace*{-10pt}
+\begin{itemize}[leftmargin=*] \itemsep -3pt
+\vspace*{-5pt}
+	\item Developed and simulated an adaptive Pure Pursuit guidance law for AGV.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	SELECTED PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SELECTED\\ RESEARCH\\ PROJECTS}
+{\textbf{Multi-phase gas kick modeling  (funded company research project)}}\hfill\textit{9/2015-present}\\
+\vspace*{-10pt}
+\begin{itemize}[leftmargin=*] \itemsep -3pt
+\vspace*{-5pt}
+	\item Proposed a novel transient multi-phase flow modeling methodology for simulating different well control cases including managed pressure drilling (MPD), underbalanced drilling (UBD) and Wait \& Weight method.
+	\item Developed a well control simulator that can run 20-30 times faster than real-time and handle many complexities such as multiple kicks from several formations,  automated choke control,  non-Newtonian drilling fluids, arbitrary wellbore path, area discontinuity, etc.
+    \item Helped PI recognize over \$300k in grant funding by completing tasks on time and creating the multi-phase well control simulator.
+\end{itemize}
+
+\medskip
+{\textbf{Modeling and control of wind turbine systems (Ph.D. dissertation project)}}\hfill\textit{9/2013-present}\\
+\vspace*{-10pt}
+\begin{itemize}[leftmargin=*] \itemsep -3pt
+\vspace*{-5pt}
+    \item Proposed an adaptive gain-scheduled generator torque controller that enhances wind energy harvesting, mitigates fatigue loading on turbine structure, and improves robustness against modeling uncertainties.
+	\item Developed an  power scheduling approach that optimizes over probabilistic wind speed prediction obtained from modified Autoregressive and Moving Average (ARMA) analysis.
+	\item Proposed a real-time active power controller that enhances power reference tracking and optimizes the performances of hybrid system under instantaneously varying wind speed.
+    \item Developed a wind turbine simulation platform  for controller validation and fatigue analysis.
+\end{itemize}
+
+\medskip
+{\textbf{Electromyography (EMG)-based handwriting recognition}}\hfill\textit{8/2012-5/2013}\\
+\vspace*{-10pt}
+\begin{itemize}[leftmargin=*] \itemsep -3pt
+\vspace*{-5pt}
+	\item Applied Dynamic Time Warping (DTW) algorithm to EMG recognition of writing characters.
+	\item Improved the average recognition accuracy by 4.65\% after replacing Euclidean Distance with modified Mahalanobis Distance that minimizes the sample interclass variance.
+	\item Proposed a real-time two-step signal segmentation method that filters out muscle noise and captures signal of writing characters.
+\end{itemize}
+
+\end{resume}
+\end{document}
